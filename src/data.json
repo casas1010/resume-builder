@@ -1,0 +1,41 @@
+{
+    "user_information": {
+        "name": "Juan Casas",
+        "email": "jcasasmail@gmail.com",
+        "cell": "561-452-5550",
+        "linkedin": "https://www.linkedin.com/in/JuanFCasas"
+    },
+    "employement": [
+        {
+            "company_name": "Deloitte",
+            "location": "Remote",
+            "positions": [
+                {
+                    "date": "May 2018 - May 2019",
+                    "title": "Cyber & Strategic Risk Consultant |GRC ServiceNow Developer",
+                    "projects": [
+                        {
+                            "role": "Lead Developer",
+                            "client": "Google",
+                            "descriptions": [
+                                "Design implementation strategy with Architects by quantitatively comparing proposed solutions",
+                                "Design and implement client requirements"
+                            ]
+                        },
+                        {
+                            "role": "Consultant support",
+                            "client": "Exelon",
+                            "descriptions": [
+                                "Translate documented flows and requirements into ServiceNow by utilizing OOB features.",
+                                "Developed custom flow for creating control objectives"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "education": [],
+    "certificates": [],
+    "volunteering": []
+}
