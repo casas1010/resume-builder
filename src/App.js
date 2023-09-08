@@ -6,7 +6,7 @@ import data from './data.json';
 import html2pdf from 'html2pdf.js';
 import UserInfo from './sections/user-info/User-info';
 import UserEmployement from './sections/user-employement/User-employement';
-import bgImage from './backgrounds/img.png';
+import bgImage from './backgrounds/img2.png';
 
 function App() {
 
