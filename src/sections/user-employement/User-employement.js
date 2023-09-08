@@ -4,6 +4,16 @@ import './User-employement.css';
 function UserEmployement({ employement }) {
 
 
+    const _buildCompanyTitleLocation = (job) => {
+        return (
+            <div className='company-title-location'>
+                <h4>{job.company_name}</h4>
+                <p>{`,    ${job.location}`}</p>            
+                </div>
+        );
+    }
+
+
     const _buildProjectRoleClient = (project) => {
         if (project.clien) {
             return (
@@ -36,15 +46,13 @@ function UserEmployement({ employement }) {
 
                 <div className='employment-block' key={index}>
 
-                    <div className='company-title-location'>
-                        <h4>{job.company_name}</h4>, <p>{job.location}</p>
-                    </div>
+                    {_buildCompanyTitleLocation(job)}
 
                     {job.positions.map((position, index2) => (
                         <>
                             <div className='company-position' key={index2}>
                                 <p>{position.title}</p>
-                                <p>{position.date}</p>
+                                <p style={{ fontStyle: 'italic' }}>{position.date}</p>
                             </div>
                             <div className='company-projects'>
                                 {position.projects.map((project, index3) => (
@@ -56,8 +64,6 @@ function UserEmployement({ employement }) {
 
                                     </div>
                                 ))}
-
-
                             </div>
                         </>
                     ))}
