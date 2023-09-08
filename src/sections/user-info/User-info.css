@@ -1,3 +1,4 @@
+/* User-info.css */
 .user-info {
     display: flex;
     justify-content: space-between;
@@ -12,4 +13,8 @@
     display: flex;
     text-align: right;
   }
-  
+
+    .user.contact p{
+    padding-right: 3px ;
+   
+  }

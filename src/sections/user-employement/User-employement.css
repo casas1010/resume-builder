@@ -13,8 +13,8 @@
   }
   
   .company-title-location p {
-    margin: 0; /* ensure no default margins push things out of place */
-    padding-left: 5px; /* some spacing between the items */
+    margin: 0; 
+    padding-left: 5px; 
 }
   
   .company-positions{
@@ -27,7 +27,6 @@
     display: flex;
     justify-content: space-between; 
     width: 100%; 
-    /* background-color: red; */
   
   }
   

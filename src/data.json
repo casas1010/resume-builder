@@ -6,7 +6,6 @@
         "linkedin": "https://www.linkedin.com/in/JuanFCasas"
     },
     "employement": [
-
         {
             "company_name": "The Auto Depot, Raleigh North Carolina",
             "location": "Remote",
@@ -16,7 +15,6 @@
                     "title": "ServiceNow Developer",
                     "projects": [
                         {
-
                             "descriptions": [
                                 "Developed integration/data scraper with Craigslist and AutoTrader",
                                 "Developed parent table that holds all cars records based on cars VIN, table holds relation to where the car came from Developer algorithm to find price deltas where the company can make the most money based on car and its location"
@@ -103,7 +101,6 @@
                     "projects": [
                         {
                             "role": "Architect / Engineer",
-    
                             "descriptions": [
                                 "Took over a failed project that took a year to semi-develop. Completed the project in 4 months.",
                                 "Developed a web app where people can buy/sell leads in an auction manner."
@@ -126,10 +123,9 @@
             "positions": [
                 {
                     "date": "Dec 2022 - April 2023",
-                    "title":"ServiceNow/Flutter developer",
+                    "title": "ServiceNow/Flutter developer",
                     "projects": [
                         {
-                     
                             "descriptions": [
                                 "Researched/studied Servicenow, Angie's list, Home Advisors, Fiver’s website and mobile application to reverse engineer database structure",
                                 "Designed/prototyped application in ServiceNow",
@@ -161,9 +157,22 @@
             ],
             "technologies_used": "ServiceNow: Flow designer,Inbound action, attachment script"
         }
-   
     ],
-    "education": [],
-    "certificates": [],
+    "educations": [
+        {
+            "name": "University of Florida",
+            "location": "Gainsville, FL",
+            "date": "Aug 2014 - May 2018",
+            "degree": "Bachelors of Science in Chemical Engineering",
+            "gpa": "Summa Cum Laude"
+        }
+    ],
+    "certificates": [
+        "ServiceNow: Application Developer",
+        "ServiceNow: System Administrator",
+        "ServiceNow: Implementation Specialist - Risk and Compliance",
+        "ServiceNow: Implementation Specialist - Vulnerability Response",
+        "ITIL: IT Service Management"
+    ],
     "volunteering": []
 }

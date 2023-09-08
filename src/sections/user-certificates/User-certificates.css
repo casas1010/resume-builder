@@ -1,0 +1,9 @@
+.certificates {
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+    flex: 1;
+    text-align: center;
+}
