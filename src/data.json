@@ -6,34 +6,163 @@
         "linkedin": "https://www.linkedin.com/in/JuanFCasas"
     },
     "employement": [
+
         {
-            "company_name": "Deloitte",
+            "company_name": "The Auto Depot, Raleigh North Carolina",
             "location": "Remote",
             "positions": [
                 {
-                    "date": "May 2018 - May 2019",
-                    "title": "Cyber & Strategic Risk Consultant || GRC ServiceNow Developer",
+                    "date": "Jun 2023 - Present",
+                    "title": "ServiceNow Developer",
                     "projects": [
                         {
-                            "role": "Lead Developer",
-                            "client": "Google",
+
                             "descriptions": [
-                                "Design implementation strategy with Architects by quantitatively comparing proposed solutions",
-                                "Design and implement client requirements"
-                            ]
-                        },
-                        {
-                            "role": "Consultant support",
-                            "client": "Exelon",
-                            "descriptions": [
-                                "Translate documented flows and requirements into ServiceNow by utilizing OOB features.",
-                                "Developed custom flow for creating control objectives"
+                                "Developed integration/data scraper with Craigslist and AutoTrader",
+                                "Developed parent table that holds all cars records based on cars VIN, table holds relation to where the car came from Developer algorithm to find price deltas where the company can make the most money based on car and its location"
                             ]
                         }
                     ]
                 }
             ]
+        },
+        {
+            "company_name": "Qube",
+            "location": "Remote",
+            "positions": [
+                {
+                    "date": "Jul 2023 - Sep 2023",
+                    "title": "Fullstack Developer",
+                    "projects": [
+                        {
+                            "role": "Lead Developer",
+                            "client": "Qube",
+                            "descriptions": [
+                                "Developed a Siri/Alexa-like robot that allows the user to ask questions "
+                            ]
+                        },
+                        {
+                            "role": "Lead Developer",
+                            "client": "DocWise / Law Office of Fenstersheib & Berkowitz",
+                            "descriptions": [
+                                "Developed a chatbot algorithm that allows users to input multiple PDFs (up to 1 GB) and ask questions against it.",
+                                "The application I developed allowed DocWise to qualify for the Antler accelerator program. Antler initially evaluated the company at € 1,100,000. (Documentation of the offer is available upon request )"
+                            ]
+                        }
+                    ],
+                    "technologies_used": "Python, RaspberryPi, OpenAI, Flask, React with redux, Stripe, AWS Elastic Beanstalk, AWS SageMaker, AWS E3, TensorFlow, Docker"
+                }
+            ]
+        },
+        {
+            "company_name": "ThrAIve",
+            "location": "Remote",
+            "positions": [
+                {
+                    "date": "May 2023 - July 2023",
+                    "title": "Flutter/Firebase Developer",
+                    "projects": [
+                        {
+                            "descriptions": [
+                                "Gather requirements, create documentation, create the application.",
+                                "Flow 1: The user can listen to a sound, and describe an image ( app created image using DAll-E-2)",
+                                "Flow 2: Using the image created, the user can record a journal entry to record how the image has improved their life"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "technologies_used": "Flutter, Firebase, ChatGPT, Dall-e-2"
+        },
+        {
+            "company_name": "Limitless Landscapes Ltd",
+            "location": "Remote",
+            "positions": [
+                {
+                    "date": "May 2023",
+                    "title": "Wix Developer",
+                    "projects": [
+                        {
+                            "descriptions": [
+                                "Gather requirement from client",
+                                "Created simple website where people can gather information about the company"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "technologies_used": "Wix"
+        },
+        {
+            "company_name": "Minerva Marketing",
+            "location": "Remote",
+            "positions": [
+                {
+                    "date": "Dec 2022 - April 2023",
+                    "title": "MEAN Developer",
+                    "projects": [
+                        {
+                            "role": "Architect / Engineer",
+    
+                            "descriptions": [
+                                "Took over a failed project that took a year to semi-develop. Completed the project in 4 months.",
+                                "Developed a web app where people can buy/sell leads in an auction manner."
+                            ]
+                        },
+                        {
+                            "role": "Support engineer",
+                            "descriptions": [
+                                "Created 3 APIs using Nest.js: (1) Allow read/write to google docs (2)Biding sorting algorithm (3)Verify agent availability"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "technologies_used": "Technologies used : React, React-bootstrap , Angular, Material UI, MongoDb, Node.js, ChatGPT"
+        },
+        {
+            "company_name": "Sabo construction",
+            "location": "Remote",
+            "positions": [
+                {
+                    "date": "Dec 2022 - April 2023",
+                    "title":"ServiceNow/Flutter developer",
+                    "projects": [
+                        {
+                     
+                            "descriptions": [
+                                "Researched/studied Servicenow, Angie's list, Home Advisors, Fiver’s website and mobile application to reverse engineer database structure",
+                                "Designed/prototyped application in ServiceNow",
+                                "Created application with Flutter/Firebase to allow clients to create jobs with videos/images, allow contractors to bid on jobs and allow users to chat with contractors"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "technologies_used": "ServiceNow, Flutter, Firebase"
+        },
+        {
+            "company_name": "Bank United",
+            "location": "Remote",
+            "positions": [
+                {
+                    "date": "Dec 2022 - April 2023",
+                    "title": "ServiceNow Developer",
+                    "projects": [
+                        {
+                            "role": "ServiceNow developer",
+                            "descriptions": [
+                                "Researched/studied Servicenow, Angie's list, Home Advisors, Fiver’s website and mobile application to reverse engineer database structure",
+                                "Designed/prototyped application in ServiceNow",
+                                "Created application with Flutter/Firebase to allow clients to create jobs with videos/images, allow contractors to bid on jobs and allow users to chat with contractors"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "technologies_used": "ServiceNow, Flutter, Firebase"
         }
+   
     ],
     "education": [],
     "certificates": [],

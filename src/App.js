@@ -7,6 +7,7 @@ import html2pdf from 'html2pdf.js';
 import UserInfo from './sections/user-info/User-info';
 import UserEmployement from './sections/user-employement/User-employement';
 import bgImage from './backgrounds/img2.png';
+import SectionTitle from './sections/section-title/Section-title';
 
 function App() {
 
@@ -35,10 +36,9 @@ function App() {
 
           <UserInfo user_information={data.user_information}></UserInfo>
 
-          <div className="section-header">
-            <h3 className='section-title'>Employement</h3>
-          </div>
+          <SectionTitle title="Employment"></SectionTitle>
           <UserEmployement employement={data.employement}></UserEmployement>
+          <SectionTitle title="Education"></SectionTitle>
 
 
         </div>

@@ -8,25 +8,29 @@ function UserEmployement({ employement }) {
         return (
             <div className='company-title-location'>
                 <h4>{job.company_name}</h4>
-                <p>{`,    ${job.location}`}</p>            
-                </div>
+                <p>{`,    ${job.location}`}</p>
+            </div>
         );
     }
 
 
     const _buildProjectRoleClient = (project) => {
-        if (project.clien) {
+        if (project.client) {
             return (
                 <div className='project-role-client'>
-                    <p>{`• ${project.role} || ${project.client}`}</p>
+                    <p>{`• Role: ${project.role} || Client: ${project.client}`}</p>
                 </div>
             );
         }
-        return (
-            <div className='project-role-client'>
-                <p>{`• ${project.role}`}</p>
-            </div>
-        );
+        if (project.role) {
+            return (
+                <div className='project-role-client'>
+                    <p>{`• ${project.role}`}</p>
+                </div>
+            );
+        }
+   
+
     }
 
     const _buildProjectDescription = (project) => {

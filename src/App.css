@@ -16,21 +16,3 @@
   
 }
 
-
-
-.section-header {
-  display: flex;
-  align-items: flex-end;
-  position: relative;
-
-}
-
-.section-header::after {
-  content: '';
-  display: block;
-  height: 1px;
-  background-color: #000; 
-  flex-grow: 1;
-  position: relative;  
-  top: -1px;  
-} 
