@@ -150,17 +150,16 @@
                     "title": "ServiceNow Developer",
                     "projects": [
                         {
-                            "role": "ServiceNow developer",
                             "descriptions": [
-                                "Researched/studied Servicenow, Angie's list, Home Advisors, Fiver’s website and mobile application to reverse engineer database structure",
-                                "Designed/prototyped application in ServiceNow",
-                                "Created application with Flutter/Firebase to allow clients to create jobs with videos/images, allow contractors to bid on jobs and allow users to chat with contractors"
+                                "Developed client improvements involving: Security Incident Response, Widget / Portal, UI Builder, Service Catalog, SLA engine, CMDB",
+                                "Successfully took over the project from a colleague that left abruptly",
+                                "Developed a custom application to track/route/act upon emails received by the system"
                             ]
                         }
                     ]
                 }
             ],
-            "technologies_used": "ServiceNow, Flutter, Firebase"
+            "technologies_used": "ServiceNow: Flow designer,Inbound action, attachment script"
         }
    
     ],
